@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+.nav-top-wrapper {
+    width: 100%;
+    height: 30px;
+    background: #ddd;
+}
+
+.nav-top {
+    position: relative;
+    width: 1192px;
+    height: 30px;
+    background: #ddd;
+    border: 1px solid block;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+
+.nav-top .details {
+    z-index: 99;
+}
+
+.left-con {
+    float: left;
+    padding-left: 215px;
+}
+
+.left-con li:hover {
+    background: #fff;
+}
+
+.left-con .address img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 3px;
+}
+
+.left-con li {
+    position: relative;
+    width: 70px;
+    float: left;
+    line-height: 30px;
+    color: #999;
+}
+
+.left-con li .address {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.left-con li .cities {
+    position: absolute;
+    width: 310px;
+    left: 0px;
+    top: 28px;
+    padding: 10px;
+    border: 1px solid #999;
+    background: #fff;
+    border-top: none;
+    display: none;
+    z-index: 99;
+}
+
+.left-con li .cities ul {
+    float: left;
+}
+
+.left-con li .cities ul li {
+    float: left;
+    width: 52px;
+    margin-left: 7px;
+}
+
+.left-con li .cities ul li a {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #999;
+}
+
+.left-con li .cities hr {
+    margin: 220px 31px 0px 12px;
+    background: rgba(238, 238, 238, 0.767);
+}
+
+.left-con li .cities .others {
+    padding: 10px;
+}
+
+.left-con li .cities .others ul li {
+    float: left;
+    width: 117px;
+    padding-left: 28px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+}
+
+.left-con li .cities .others ul .global {
+    background: url(../images/global.png) no-repeat;
+    background-size: 25px 28px;
+    background-position: 0% 0%;
+}
+
+.left-con li .cities .others ul .russia {
+    background: url(../images/russia.png) no-repeat;
+    background-size: 25px 28px;
+    background-position: 0% 0%;
+}
+
+.left-con li .cities .others ul .yn {
+    background: url(../images/yn.png) no-repeat;
+    background-size: 25px 28px;
+    background-position: 0% 75%;
+}
+
+.left-con li .cities .others ul .vietnamese {
+    background: url(../images/russia.png) no-repeat;
+    background-size: 25px 28px;
+    background-position: 0% 0%;
+}
+
+.left-con li .cities .others ul .tailand {
+    background: url(../images/tailand.png) no-repeat;
+    background-size: 25px 28px;
+    background-position: 0% 0%;
+}
+
+.right-con {
+    float: left;
+    margin-left: 110px;
+}
+
+.right-con li {
+    float: left;
+    line-height: 30px;
+    color: #999;
+}
+
+.right-con li {
+    margin: 0 3px;
+    position: relative;
+}
+
+.right-con li .register {
+    color: #f10215;
+}
+
+.right-con .select:hover {
+    background: #fff;
+}
+
+.right-con li a {
+    color: #666;
+}
+
+.right-con li:hover a {
+    color: #f10215;
+}
+
+.right-con li .dt-con {
+    position: relative;
+    padding: 0px 5px;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.right-con li .dt-con img {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right: 5px;
+}
+
+.right-con li .myjd {
+    position: absolute;
+    width: 280px;
+    top: 30px;
+    left: 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #999;
+    border-top: none;
+    display: none;
+}
+
+.right-con li .myjd ul {
+    float: left;
+}
+
+.right-con li .myjd ul li {
+    width: 140px;
+    margin: 0px;
+    background: #fff;
+}
+
+.right-con li .myjd ul li:hover {
+    color: #f10215;
+}
+
+.right-con li .myjd ul .line {
+    width: 280px;
+    padding: 5px 0px;
+}
+
+.right-con li .company {
+    position: absolute;
+    width: 154px;
+    top: 30px;
+    left: 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #999;
+    border-top: none;
+    display: none;
+}
+
+.right-con li .company ul li {
+    float: left;
+    width: 96px;
+    margin: 0px;
+    background: #fff;
+}
+
+.right-con li .company ul li:hover {
+    color: #f10215;
+}
+
+.right-con li .company ul .short {
+    width: 48px;
+    padding-right: 10px;
+}
+
+.right-con li .service {
+    position: absolute;
+    width: 170px;
+    height: 280px;
+    top: 30px;
+    right: 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #999;
+    border-top: none;
+    display: none;
+}
+
+.right-con li .service ul li {
+    float: left;
+    width: 80px;
+    margin: 0px;
+    background: #fff;
+}
+
+.right-con li .service ul li:hover {
+    color: #f10215;
+}
+
+.right-con li .service ul {
+    float: left;
+}
+
+.right-con li .service ul .customer {
+    width: 160px;
+}
+
+.right-con li .service ul .line {
+    margin-top: 10px;
+}
+
+.right-con li .service ul .merchant {
+    width: 160px;
+    margin-top: 10px;
+}
+
+.right-con li .website {
+    position: absolute;
+    width: 1200px;
+    top: 30px;
+    right: -134px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #999;
+    border-left: none;
+    border-top: none;
+    display: none;
+}
+
+.right-con li .website h3 {
+    font-size: 13px;
+    font-weight: bolder;
+    color: #666;
+}
+
+.right-con li .website li:hover {
+    color: #f10215;
+}
+
+
+/* spic */
+
+.right-con li .website .spic {
+    width: 340px;
+    float: left;
+    border-right: 1px solid #eee;
+}
+
+.right-con li .website .spic li {
+    display: inline-block;
+    font-size: 13px;
+    width: 79px;
+}
+
+
+/* channel */
+
+.right-con li .website .channel {
+    margin-left: 17px;
+    width: 255px;
+    float: left;
+    border-right: 1px solid #eee;
+}
+
+.right-con li .website .channel li {
+    display: inline-block;
+    font-size: 13px;
+    width: 79px;
+}
+
+
+/* life */
+
+.right-con li .website .life {
+    margin-left: 17px;
+    width: 255px;
+    float: left;
+    border-right: 1px solid #eee;
+}
+
+.right-con li .website .life li {
+    display: inline-block;
+    font-size: 13px;
+    width: 79px;
+}
+
+
+/* more */
+
+.right-con li .website .more {
+    margin-left: 17px;
+    width: 255px;
+    float: left;
+}
+
+.right-con li .website .more li {
+    display: inline-block;
+    font-size: 13px;
+    width: 79px;
+}
+
+.right-con li .phonejd {
+    position: absolute;
+    width: 194px;
+    top: 30px;
+    right: 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #999;
+    border-top: none;
+    display: none;
+}
+
+.right-con li .phonejd div {
+    position: relative;
+    margin: 15px 0px 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.right-con li .phonejd .jd-con {
+    margin-top: 0px;
+}
+
+.right-con li .phonejd .jd-con h3 {
+    position: absolute;
+    right: 60px;
+    top: -7px;
+}
+
+.right-con li .phonejd .jd-con a {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    color: #f10215;
+}
+
+.right-con li .phonejd .economic-con a {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    color: #f10215;
+}
+
+.right-con li .phonejd .weichat-con {
+    padding-bottom: 10px;
+}
+
+.right-con li .phonejd .weichat-con h3 {
+    position: absolute;
+    right: 33px;
+    top: -7px;
+}
+
+.right-con li .phonejd .weichat-con a {
+    position: absolute;
+    left: 76px;
+    top: 19px;
+    color: #f10215;
+    line-height: 20px;
+}
+
+.right-con li .phonejd .economic-con {
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+.right-con li .phonejd .economic-con h3 {
+    position: absolute;
+    right: 20px;
+    top: -7px;
+}
+
+.right-con li .phonejd div img {
+    width: 70px;
+    height: 70px;
+}
+
+.right-con .space {
+    overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #999;
+}

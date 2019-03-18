@@ -1,0 +1,923 @@
+/* .rightDemo {
+    width: 190px;
+    height: 500px;
+    margin: 100px auto;
+    background: #fff;
+} */
+
+.fs #user {
+    width: 190px;
+    height: 470px;
+    float: right;
+    background: #fff;
+    margin-top: 10px;
+    /* background: #02f122; */
+}
+
+.user {
+    width: 190px;
+    height: 150px;
+    /* border-bottom: 1px solid black; */
+}
+
+.logo {
+    position: relative;
+    width: 190px;
+    height: 75px;
+    text-align: center;
+}
+
+.logo a {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin-top: -10px;
+    border-radius: 50%;
+    background: #eee;
+    text-align: center;
+    box-shadow: 6px 4px 20px rgba(45, 45, 45, .15);
+}
+
+.logo a img {
+    display: inline-block;
+    position: absolute;
+    margin-left: -33px;
+    margin-top: 3px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.user .welcom {
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.user .welcom .hello {
+    color: #666;
+}
+
+.user .welcom .login a {
+    color: #666;
+}
+
+.user .welcom .login a:hover {
+    color: #e43f3b;
+}
+
+.user .welf {
+    width: 190px;
+    height: 25px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.user .welf a {
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 6px 8px 20px rgba(45, 45, 45, .15);
+}
+
+.user .welf a:hover {
+    color: #fff;
+    background: #e01222;
+}
+
+.user .welf .freshWelf {
+    padding-right: 3px;
+    padding-right: 3px;
+    margin-right: 5px;
+    color: #e01222;
+    /* border: 1px solid black; */
+}
+
+.user .welf .vip {
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #e5d790;
+    background: #363634;
+}
+
+.news {
+    position: relative;
+    width: 190px;
+    height: 122px;
+}
+
+.news .con {
+    width: 190px;
+    height: 121px;
+    margin: 0;
+}
+
+.news .con .con-head {
+    width: 100%;
+    position: relative;
+}
+
+.news .con .con-head .line,
+.line2 {
+    position: absolute;
+    left: 15px;
+    width: 25px;
+    height: 3px;
+    background: #e5d790;
+    display: none;
+}
+
+.news .con .con-head .line2 {
+    left: 74px;
+}
+
+.news .con .con-head a {
+    display: inline-block;
+    /* width: 25px;
+    height: 15px; */
+    font-size: 12px;
+    color: #333;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.news .con .con-head .cx {
+    border-right: 1px solid #dfe0e1;
+}
+
+.news .con .con-head .ad {
+    padding-right: 25px;
+}
+
+.news .con .con-head a:hover {
+    color: #e01222;
+}
+
+.news .con .con-main {
+    width: 160px;
+    height: 88px;
+    padding-top: 8px;
+    margin: 0 15px;
+}
+
+.news .con .con-main .cx-con {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.news .con .con-main ul li {
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.con .con-main ul li a {
+    font-size: 13px;
+    line-height: 22px;
+    color: #666;
+}
+
+.news .con .con-main ul li a:hover {
+    color: #e01222;
+}
+
+.news .con .con-main .ad-con {
+    margin-top: 0px;
+    display: none;
+}
+
+.service {
+    width: 190px;
+    height: 210px;
+}
+
+.service .sort {
+    width: 168px;
+    height: 190px;
+    margin: 5px 11px 11px 11px;
+    border-top: 1px solid #999;
+    /* display: none; */
+}
+
+.service .sort li {
+    float: left;
+    width: 42px;
+    height: 63px;
+    text-align: center;
+}
+
+.service .sort li a {
+    display: inline-block;
+    width: 42px;
+    padding-top: 45px;
+    font-size: 12px;
+    color: #bea68d;
+}
+
+.service .sort li .one {
+    background: url(../images/pic1..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .two {
+    background: url(../images/pic2..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .three {
+    background: url(../images/pic3..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .four {
+    background: url(../images/pic4..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .five {
+    background: url(../images/pic5..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .six {
+    background: url(../images/pic6..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .seven {
+    background: url(../images/pic7..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .eight {
+    background: url(../images/pic8..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .nine {
+    background: url(../images/pic9..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .ten {
+    background: url(../images/pic10..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .eleven {
+    background: url(../images/pic11..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .sort li .tw {
+    background: url(../images/pic12..png) no-repeat;
+    background-size: 25px 30px;
+    background-position: 50% 30%;
+}
+
+.service .service-content {
+    padding: 0px 8px;
+    position: relative;
+    display: none;
+}
+
+.service .service-content .close {
+    width: 12px;
+    height: 12px;
+    color: #666;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.service .service-content .service-header span {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    cursor: pointer;
+}
+
+.service .service-content .service-header .active {
+    color: #f10215;
+    border-bottom: 2px solid #f10215;
+}
+
+.service .service-content .tel-charge-content ul {
+    padding-top: 8px;
+    height: 21px;
+    font-size: 0;
+}
+
+.tel-charge-content ul li {
+    width: 56px;
+    height: 21px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    cursor: pointer;
+}
+
+.tel-charge-content ul .active {
+    color: #f10215;
+}
+
+.tel-charge-content ul li .item1-content {
+    position: absolute;
+    width: 174px;
+    left: 0;
+    top: 21px;
+}
+
+
+/* item1-content */
+
+.item1-content label {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    width: 34px;
+}
+
+.item1-content {
+    /* display: none; */
+}
+
+.item1-content #number {
+    font-size: 12px;
+    width: 124px;
+    height: 16px;
+}
+
+.item1-content #price {
+    width: 128px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.item1-content .range p {
+    padding-top: 8px;
+    font-size: 12px;
+    color: red;
+}
+
+.item1-content .fast-pay {
+    margin-top: 8px;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 25px;
+    padding: 0px 4px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    background: #f10215;
+}
+
+.item1-content .ticket {
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.item1-content .ticket a {
+    font-size: 12px;
+}
+
+.item1-content .ticket a:hover {
+    color: #f10215;
+}
+
+.tel-charge-content ul li .item2-content {
+    position: absolute;
+    width: 174px;
+    left: -56px;
+    top: 21px;
+}
+
+
+/* item2-content */
+
+.item2-content {
+    display: none;
+}
+
+.item2-content label {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    width: 34px;
+}
+
+.item2-content #number {
+    font-size: 12px;
+    width: 124px;
+    height: 16px;
+}
+
+.item2-content #occurs,
+#price {
+    width: 60px;
+    font-size: 12px;
+    color: #666;
+    margin-top: 8px;
+    height: 20px;
+}
+
+.item2-content .range p {
+    padding-top: 8px;
+    font-size: 12px;
+    color: red;
+}
+
+.item2-content .fast-pay {
+    margin-top: 8px;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 25px;
+    padding: 0px 4px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    background: #f10215;
+}
+
+.item2-content .ticket {
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.item2-content .ticket a {
+    font-size: 12px;
+}
+
+.item2-content .ticket a:hover {
+    color: #f10215;
+}
+
+
+/* item3-content */
+
+.tel-charge-content ul li .item3-content {
+    position: absolute;
+    width: 174px;
+    left: -112px;
+    top: 21px;
+}
+
+.item3-content label {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    width: 34px;
+}
+
+.item3-content {
+    display: none;
+}
+
+.item3-content #number {
+    font-size: 12px;
+    width: 124px;
+    height: 16px;
+}
+
+.item3-content #price {
+    width: 128px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.item3-content .range p {
+    padding-top: 8px;
+    font-size: 12px;
+    color: red;
+}
+
+.item3-content .fast-pay {
+    margin-top: 8px;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 25px;
+    padding: 0px 4px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    background: #f10215;
+}
+
+.item3-content .ticket {
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.item3-content .ticket a {
+    font-size: 12px;
+}
+
+.item3-content .ticket a:hover {
+    color: #f10215;
+}
+
+
+/* 机票 */
+
+.service .service-content .air-ticket-content ul {
+    padding-top: 8px;
+    height: 21px;
+    font-size: 0;
+}
+
+.air-ticket-content ul li {
+    position: relative;
+    width: 48px;
+    height: 21px;
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    cursor: pointer;
+}
+
+.air-ticket-content ul .foreign {
+    width: 66px;
+}
+
+.air-ticket-content ul .discount {
+    width: 24px;
+}
+
+.air-ticket-content .active {
+    color: #f10215;
+}
+
+
+/* 国内机票 */
+
+.air-ticket-content ul li .item1-content {
+    position: absolute;
+    left: 0;
+    top: 21px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+}
+
+.air-ticket-content ul li .item1-content .jurney {
+    width: 174px;
+    padding-left: 15px;
+}
+
+.jurney label {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.start label,
+.arrive label,
+.date label {
+    width: 34px;
+}
+
+.date {
+    margin-top: 8px;
+}
+
+#start,
+#arrive,
+#date {
+    width: 126px;
+    height: 16px;
+    font-size: 12px;
+    color: #666;
+}
+
+.inqury {
+    margin-top: 15px;
+}
+
+.inqury span {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    background: #f10215;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.inqury a {
+    font-size: 12px;
+}
+
+
+/* 国际/港澳台 */
+
+.air-ticket-content ul li .item2-content {
+    position: absolute;
+    left: -58px;
+    top: 21px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    display: none;
+}
+
+.air-ticket-content ul li .item2-content .jurney {
+    width: 174px;
+    padding-left: 15px;
+}
+
+
+/* 特惠 */
+
+.air-ticket-content ul li .item3-content {
+    position: absolute;
+    width: 174px;
+    left: -125px;
+    top: 30px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    display: none;
+}
+
+.air-ticket-content ul li .item3-content img {
+    display: inline-block;
+    padding-right: 5px;
+    width: 75px;
+    height: 96px;
+}
+
+.service .service-content .air-ticket-content {
+    display: none;
+}
+
+.service .service-content .hotel-content {
+    display: none;
+}
+
+.service .service-content .game-content {
+    display: none;
+}
+
+
+/* 酒店 */
+
+.hotel-content {
+    padding-top: 8px;
+    height: 21px;
+    font-size: 0;
+}
+
+.hotel-content ul li {
+    position: relative;
+    height: 21px;
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    cursor: pointer;
+}
+
+.hotel-content ul .active {
+    color: #f10215;
+}
+
+
+/* 酒店--》国际港澳台 */
+
+.hotel-content ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.hotel-content ul li .item1-content {
+    position: absolute;
+    width: 174px;
+    left: 0;
+    top: 21px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+}
+
+.item3-tab .destination label,
+.checkin label,
+.leave label {
+    width: 55px;
+    height: 20px;
+    display: inline-block;
+}
+
+.item3-tab #destination,
+#checkin,
+#leave {
+    width: 100px;
+    height: 13px;
+    color: #666;
+    font-size: 12px;
+}
+
+.item3-tab .item2-content {
+    position: absolute;
+    left: -76px;
+    top: 21px;
+    width: 174px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.item3-tab .item2-content img {
+    display: inline-block;
+    padding-right: 5px;
+    width: 75px;
+    height: 96px;
+}
+
+.item3-tab .item1-content .unk {
+    width: 160px;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    text-align: center;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+}
+
+
+/* 游戏 */
+
+.game-content .item4-tab {
+    padding-top: 8px;
+    height: 21px;
+    font-size: 0;
+}
+
+.game-content ul li {
+    position: relative;
+    height: 21px;
+    padding-left: 13px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    cursor: pointer;
+}
+
+.game-content ul .active {
+    color: #f10215;
+}
+
+
+/* 游戏-->视频娱乐 */
+
+.item4-tab .item1-content {
+    position: absolute;
+    left: 0px;
+    top: 21px;
+    width: 174px;
+    margin-top: 8px;
+    padding-left: 5px;
+}
+
+.serviceType label,
+.times label {
+    width: 62px;
+    height: 20px;
+    display: inline-block;
+}
+
+#serviceType,
+#times {
+    width: 90px;
+    height: 13px;
+    font-size: 12px;
+    color: #666;
+}
+
+.moneyType {
+    margin-top: 8px;
+}
+
+.balance p {
+    font-size: 12px;
+    color: #f10215;
+    margin-top: 5px;
+}
+
+.fastPay span {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    margin-top: 12px;
+    text-align: center;
+    color: #fff;
+    background: #f10215;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+
+/* 点卡 */
+
+.item4-tab .item2-content {
+    position: absolute;
+    left: -67px;
+    top: 21px;
+    width: 174px;
+    margin-top: 8px;
+    padding-left: 5px;
+}
+
+.game label,
+.value label {
+    width: 35px;
+    height: 20px;
+    display: inline-block;
+}
+
+#game,
+#value {
+    width: 117px;
+    height: 13px;
+    font-size: 12px;
+    color: #666;
+}
+
+#game {
+    text-align: center;
+}
+
+.moneyType {
+    margin-top: 8px;
+}
+
+.balance p {
+    font-size: 12px;
+    color: #f10215;
+    margin-top: 5px;
+}
+
+.fastPay span {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    margin-top: 12px;
+    text-align: center;
+    color: #fff;
+    background: #f10215;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.fastPay a {
+    font-size: 12px;
+}
+
+
+/* 游戏-->QQ     这两个基本一模一样*/
+
+.item4-tab .item3-content {
+    position: absolute;
+    left: -104px;
+    top: 21px;
+    width: 174px;
+    margin-top: 8px;
+    padding-left: 5px;
+}
